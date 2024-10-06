@@ -27,8 +27,8 @@
 	}
 
 	.profile img {
-		width: 250px;
-		height: 250px;
+		width: 350px;
+		height: 350px;
 		border-radius: 50%; /* Circle image */
 		border: 0px solid #E37BD3; /* Theme color border */
 	}
@@ -61,7 +61,7 @@
 		transition: box-shadow 0.3s ease;
 	}
 
-	.video-item img:hover{
+	.video-item:hover, .text-item:hover{
 		box-shadow: 0 4px 15px rgba(227, 123, 211, 0.5); /* Theme color shadow */
 	}
 
@@ -114,7 +114,7 @@
 <body>
 
     <div class="profile">
-        <img src="./img/Logo.jpg" alt="Profile Photo">
+        <img src="./img/Sin_center.png" alt="Profile Photo">
     </div>
 
     <h1>Video</h1>
@@ -150,7 +150,7 @@
     <div class="text-section">
         <!-- Text Item 1 -->
         <div class="text-item">
-            <a href="https://example.com/video3.mp4" target="_blank">
+            <a href="https://github.com/SiNNature/SiNNature.github.io/blob/main/AE%20Scripts/SiN_Map_Trigger_Public.jsxbin" target="_blank">
                 <img src="./img/icon/Map_Trigger.png" alt="Map_Trigger">
                 <p>Map_Trigger</p>
             </a>
@@ -158,7 +158,7 @@
 
         <!-- Text Item 2 -->
         <div class="text-item">
-            <a href="https://example.com/video3.mp4" target="_blank">
+            <a href="https://github.com/SiNNature/SiNNature.github.io/blob/main/AE%20Scripts/SiN_Text_Layout_Public.jsxbin" target="_blank">
                 <img src="./img/icon/Text_Layout.png" alt="Text_Layout">
                 <p>Text_Layout</p>
             </a>
