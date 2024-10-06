@@ -61,7 +61,7 @@
 		transition: box-shadow 0.3s ease;
 	}
 
-	.video-item:hover, .text-item:hover{
+	.video-item img:hover{
 		box-shadow: 0 4px 15px rgba(227, 123, 211, 0.5); /* Theme color shadow */
 	}
 
