@@ -37,12 +37,12 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 30px;
-		justify-content: center;
+		justify-content: left;
 		margin-bottom: 40px;
 	}
 
 	.video-item, .text-item {
-		width: 250px;
+		width: 560px;
 		background-color: #222; /* Darker background for gallery items */
 		padding: 15px;
 		border-radius: 15px;
@@ -116,35 +116,7 @@
     <div class="profile">
         <img src="./img/Sin_center.png" alt="Profile Photo">
     </div>
-
-    <h1>Video</h1>
-
-    <div class="gallery">
-        <!-- Video 1 -->
-        <div class="video-item">
-            <a href="https://example.com/video1.mp4" target="_blank">
-                <img src="video1-thumbnail.jpg" alt="Video 1">
-                <p>Video 1</p>
-            </a>
-        </div>
-
-        <!-- Video 2 -->
-        <div class="video-item">
-            <a href="https://example.com/video2.mp4" target="_blank">
-                <img src="video2-thumbnail.jpg" alt="Video 2">
-                <p>Video 2</p>
-            </a>
-        </div>
-
-        <!-- Video 3 -->
-        <div class="video-item">
-            <a href="https://example.com/video3.mp4" target="_blank">
-                <img src="video3-thumbnail.jpg" alt="Video 3">
-                <p>Video 3</p>
-            </a>
-        </div>
-    </div>
-
+	
     <h1>Script</h1>
 
     <div class="text-section">
@@ -163,6 +135,30 @@
                 <p>Text_Layout</p>
             </a>
         </div>
+    </div>
+	
+    <h1>Video</h1>
+
+    <div class="gallery">
+        <!-- Embedded YouTube Video 1 -->
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mLRmuzfCg7c?si=R09rEwjTiqRG0v9a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <!-- Embedded YouTube Video 2 -->
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/53RfSYtR8Fw?si=_1VU06h7oLphHwz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- Embedded YouTube Video 3 -->
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/17CgejogPo8?si=q3kZkbA14F-VofkB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- Embedded YouTube Video 3 -->
+        <div class="video-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XqeDvaTFvek?si=I9mAvfk06bGldeRV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>		
     </div>
 
     <footer>
